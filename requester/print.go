@@ -72,7 +72,7 @@ func formatNumber(duration float64) string {
 }
 
 func formatNumberToMillis(duration float64) string {
-	return fmt.Sprintf("%f", duration*1000)
+	return fmt.Sprintf("%4.0f", duration*1000)
 }
 
 func formatNumberInt(duration int) string {
